@@ -24,7 +24,7 @@
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="228dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_marginTop="176dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -40,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:minHeight="48dp"
         android:text="isEnroll"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -28,12 +28,12 @@
         android:text="Add Student"
         android:textSize="20sp"
         android:onClick="newStudent"
-        app:layout_constraintBottom_toTopOf="@+id/ViewButton"
+        app:layout_constraintBottom_toTopOf="@+id/buttonViewAll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/ViewButton"
+        android:id="@+id/buttonViewAll"
         android:layout_width="238dp"
         android:layout_height="62dp"
         android:layout_marginBottom="340dp"

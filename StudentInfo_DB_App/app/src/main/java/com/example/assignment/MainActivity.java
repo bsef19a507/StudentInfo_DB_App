@@ -51,6 +51,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonViewAll.setOnClickListener(new View.OnClickListener() {
+            StudentModel studentModel;
+
+            @Override
+            public void onClick(View v) {
+                Intent students = new Intent(MainActivity.this, AllStudents.class);
+                startActivity(students);
+            }
+        });
+
 
 
 

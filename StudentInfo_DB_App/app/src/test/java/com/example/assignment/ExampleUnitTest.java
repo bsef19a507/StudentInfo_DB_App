@@ -1,4 +1,4 @@
-package com.example.studentsdata;
+package com.example.assignment;
 
 import org.junit.Test;
 

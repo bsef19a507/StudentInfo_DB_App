@@ -1,6 +1,7 @@
-package com.example.studentsdata;
+package com.example.assignment;
 
 public class StudentModel {
+    private int id;
     private String name;
     private int rollNmber;
     private boolean isEnroll;
@@ -14,7 +15,16 @@ public class StudentModel {
                 '}';
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public StudentModel(String name, int rollNmber, boolean isEnroll) {
+
         this.name = name;
         this.rollNmber = rollNmber;
         this.isEnroll = isEnroll;
